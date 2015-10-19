@@ -1,0 +1,19 @@
+VC++Directories	
+Include Directories:	$(opencv249_path)\include
+Library Directories:	$(opencv249_path)\x86\vc12\lib OR $(opencv249_path)\x64\vc12\lib
+
+*environment variable:(opencv249_path=D:\Lib\OpenCV249\build)
+
+Linker/Input->Additional Dependences
+Debug:
+opencv_core249d.lib
+opencv_highgui249d.lib
+opencv_imgproc249d.lib
+opencv_objdetect249d.lib
+
+Release:
+opencv_core249.lib
+opencv_highgui249.lib
+opencv_imgproc249.lib
+opencv_objdetect249.lib
+

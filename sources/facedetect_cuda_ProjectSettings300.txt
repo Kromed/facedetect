@@ -1,0 +1,24 @@
+VC++Directories
+Include Directories:	$(opencv300_path)\include
+Library Directories:	$(opencv300_path)\x64\vc12\lib
+
+*opencv300_path=D:\Lib\OpenCV300\build
+
+Linker/Input->Additional Dependences (all it besides *cuda libs can be change to opencv_world300d.lib/opencv_world300.lib)
+
+Debug:
+opencv_core300d.lib
+opencv_highgui300d.lib
+opencv_imgcodecs300d.lib
+opencv_imgproc300d.lib
+opencv_objdetect300d.lib
+opencv_cudaobjdetect300d.lib
+
+Release:
+opencv_core300.lib
+opencv_highgui300.lib
+opencv_imgcodecs300.lib
+opencv_imgproc300.lib
+opencv_objdetect300.lib
+opencv_cudaobjdetect300.lib
+

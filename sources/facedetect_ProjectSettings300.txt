@@ -1,0 +1,13 @@
+VC++Directories
+Include Directories:	$(opencv300_path)\include
+Library Directories:	$(opencv300_path)\x86\vc12\lib	OR	$(opencv300_path)\x64\vc12\lib
+
+*opencv300_path=D:\Lib\OpenCV300\build
+
+Linker/Input->Additional Dependences
+
+Debug:
+opencv_world300d.lib
+Release:
+opencv_world300.lib
+
